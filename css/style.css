@@ -2,4 +2,73 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    font-family: 'Sigmar One', cursive;
 }
+
+
+
+nav{
+    position: fixed;
+
+}
+
+
+ul{
+        position: absolute;
+        left: 90vw;
+        display: inline-flex;
+    }
+
+
+ul li {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px 10px;
+    font-size: small;
+    text-align: center;
+    line-height: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(81, 92, 60);
+}
+
+
+
+#red-container{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.scarpa-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+
+
+#green-container{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+
+#yellow-container{
+    background-color:yellow;
+    width: 100vw;
+    height: 100vh;
+}
+
