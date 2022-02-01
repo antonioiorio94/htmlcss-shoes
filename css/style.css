@@ -59,8 +59,16 @@ a:visited{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
+}
 
+.line-1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: yellow;
 }
 
 
@@ -71,9 +79,49 @@ a:visited{
     height: 100vh;
 }
 
+.product-2{
+    height: 100%;
+    position: relative;
+}
+
+.scarpa-2{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line-2{
+    position: absolute;
+    top: 172%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: yellow;
+}
+
 #yellow-container{
     background-color:yellow;
     width: 100vw;
     height: 100vh;
 }
 
+.product-3{
+    height: 100%;
+    position: relative;
+}
+
+.scarpa-3{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line-3{
+    position: absolute;
+    top: 275%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: green;
