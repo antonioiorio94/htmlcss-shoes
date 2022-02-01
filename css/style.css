@@ -48,6 +48,10 @@ a:visited{
     background-color: red;
     width: 100vw;
     height: 100vh;
+}
+
+.product{
+    height: 100%;
     position: relative;
 }
 
@@ -56,6 +60,7 @@ a:visited{
     top: 50%;
     left: 50%;
     transform: translate(-50% -50%);
+
 }
 
 
