@@ -5,19 +5,21 @@
     font-family: 'Sigmar One', cursive;
 }
 
-
+.navbar {
+    width: 100%;
+    position: fixed;
+}
 
 nav{
-    position: fixed;
-    display: inline-block;
+    width: 100%;
+    position: relative;
 
 }
 
 
-ul{
+    ul{
         position: absolute;
-        left: 90vw;
-      
+        right: 0;
     }
 
 nav li {
